@@ -537,7 +537,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Coding</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view1">
+            <widget class="QPushButton" name="btn_view2">
              <property name="geometry">
               <rect>
                <x>107</x>
@@ -557,7 +557,7 @@ color: #ffffff;</string>
               <string>Tuong Dii</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg1">
+            <widget class="QPushButton" name="btn_viewImg2">
              <property name="geometry">
               <rect>
                <x>1</x>
@@ -617,7 +617,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Coding</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg5">
+            <widget class="QPushButton" name="btn_viewImg6">
              <property name="geometry">
               <rect>
                <x>6</x>
@@ -643,7 +643,7 @@ border-radius: 15px;</string>
               </size>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view5">
+            <widget class="QPushButton" name="btn_view6">
              <property name="geometry">
               <rect>
                <x>106</x>
@@ -709,7 +709,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Manager</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg">
+            <widget class="QPushButton" name="btn_viewImg1">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -735,7 +735,7 @@ border-radius: 15px;</string>
               </size>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view">
+            <widget class="QPushButton" name="btn_view1">
              <property name="geometry">
               <rect>
                <x>106</x>
@@ -795,7 +795,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Media</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg3">
+            <widget class="QPushButton" name="btn_viewImg4">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -821,7 +821,7 @@ border-radius: 15px;</string>
               </size>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view3">
+            <widget class="QPushButton" name="btn_view4">
              <property name="geometry">
               <rect>
                <x>104</x>
@@ -875,7 +875,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Coding</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg4">
+            <widget class="QPushButton" name="btn_viewImg5">
              <property name="geometry">
               <rect>
                <x>3</x>
@@ -901,7 +901,7 @@ border-radius: 15px;</string>
               </size>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view4">
+            <widget class="QPushButton" name="btn_view5">
              <property name="geometry">
               <rect>
                <x>105</x>
@@ -955,7 +955,7 @@ border-radius: 15px;</string>
               <string>R&amp;D Media</string>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_viewImg2">
+            <widget class="QPushButton" name="btn_viewImg3">
              <property name="geometry">
               <rect>
                <x>0</x>
@@ -981,7 +981,7 @@ border-radius: 15px;</string>
               </size>
              </property>
             </widget>
-            <widget class="QPushButton" name="btn_view2">
+            <widget class="QPushButton" name="btn_view3">
              <property name="geometry">
               <rect>
                <x>110</x>
