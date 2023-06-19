@@ -180,7 +180,7 @@ border-radius: 15px;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../PyQT/member/img/icons8-left-arrow-50.png</normaloff>../PyQT/member/img/icons8-left-arrow-50.png</iconset>
+            <normaloff>img/icons8-left-arrow-50.png</normaloff>img/icons8-left-arrow-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -239,7 +239,7 @@ border-radius: 15px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>../PyQT/member/img/chiHan.png</pixmap>
+              <pixmap>img/chiHan.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -508,7 +508,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>../PyQT/member/img/facebook.png</pixmap>
+              <pixmap>img/facebook.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -530,7 +530,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>../PyQT/member/img/instagram.png</pixmap>
+              <pixmap>img/instagram.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -552,7 +552,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>../PyQT/member/img/linkedin.png</pixmap>
+              <pixmap>img/linkedin.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -659,7 +659,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../PyQT/member/img/anhPhuoc.png</pixmap>
+           <pixmap>img/anhPhuoc.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -735,7 +735,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../PyQT/member/img/bao (2).png</pixmap>
+           <pixmap>img/bao (2).png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -811,7 +811,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../PyQT/member/img/TuongDii.png</pixmap>
+           <pixmap>img/TuongDii.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -887,7 +887,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../PyQT/member/img/khoa.png</pixmap>
+           <pixmap>img/khoa.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -964,7 +964,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../PyQT/member/img/chiHan.png</pixmap>
+           <pixmap>img/chiHan.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>

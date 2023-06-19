@@ -574,7 +574,7 @@ color: #ffffff;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/TuongDii.png</normaloff>../PyQT/member/img/TuongDii.png</iconset>
+               <normaloff>img/TuongDii.png</normaloff>img/TuongDii.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -634,7 +634,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/Minh.png</normaloff>../PyQT/member/img/Minh.png</iconset>
+               <normaloff>img/Minh.png</normaloff>img/Minh.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -726,7 +726,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/anhPhuoc.png</normaloff>../PyQT/member/img/anhPhuoc.png</iconset>
+               <normaloff>img/anhPhuoc.png</normaloff>img/anhPhuoc.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -812,7 +812,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/bao (2).png</normaloff>../PyQT/member/img/bao (2).png</iconset>
+               <normaloff>img/bao (2).png</normaloff>img/bao (2).png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -892,7 +892,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/khoa.png</normaloff>../PyQT/member/img/khoa.png</iconset>
+               <normaloff>img/khoa.png</normaloff>img/khoa.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -972,7 +972,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>../PyQT/member/img/chiHan.png</normaloff>../PyQT/member/img/chiHan.png</iconset>
+               <normaloff>img/chiHan.png</normaloff>img/chiHan.png</iconset>
              </property>
              <property name="iconSize">
               <size>
