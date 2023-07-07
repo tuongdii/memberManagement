@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>657</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -55,7 +55,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-home-30.png</pixmap>
+           <pixmap>../img/icons8-home-30.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -74,7 +74,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-images-folder-48.png</pixmap>
+           <pixmap>../img/icons8-images-folder-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -93,7 +93,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-friends-48.png</pixmap>
+           <pixmap>../img/icons8-friends-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -128,7 +128,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-qr-64.png</pixmap>
+           <pixmap>../img/icons8-qr-64.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -180,7 +180,7 @@ border-radius: 15px;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>img/icons8-left-arrow-50.png</normaloff>img/icons8-left-arrow-50.png</iconset>
+            <normaloff>../img/icons8-left-arrow-50.png</normaloff>../img/icons8-left-arrow-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -239,7 +239,7 @@ border-radius: 15px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/bao (2).png</pixmap>
+              <pixmap>../img/Minh.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -284,7 +284,7 @@ color: #ffffff;
 </string>
              </property>
              <property name="text">
-              <string>R&amp;D Media</string>
+              <string>R&amp;D Coding</string>
              </property>
             </widget>
             <widget class="QPushButton" name="pushButton">
@@ -367,7 +367,7 @@ color: #ffffff;</string>
              <bool>false</bool>
             </property>
             <property name="plainText">
-             <string>Hi, my name is Gia Bao and I'm currently a UI UX designer, in addition, I also enjoy photography and video editing.</string>
+             <string>Hi, I'm Ngoc Minh, I have 2 years of experience in the field of data analysis.</string>
             </property>
            </widget>
           </item>
@@ -508,7 +508,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/facebook.png</pixmap>
+              <pixmap>../img/facebook.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -530,7 +530,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/instagram.png</pixmap>
+              <pixmap>../img/instagram.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -552,7 +552,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/linkedin.png</pixmap>
+              <pixmap>../img/linkedin.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -572,44 +572,6 @@ background-color: #09080F;</string>
              <property name="topMargin">
               <number>0</number>
              </property>
-             <item>
-              <widget class="QLabel" name="label_68">
-               <property name="enabled">
-                <bool>true</bool>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">font: 700 15pt &quot;Arial&quot;;
-color: #ffffff;</string>
-               </property>
-               <property name="text">
-                <string>Links</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_69">
-               <property name="enabled">
-                <bool>true</bool>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color: #ffffff;
-font: 12pt &quot;Arial&quot;;</string>
-               </property>
-               <property name="text">
-                <string>My website:</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPlainTextEdit" name="plainTextEdit_2">
-               <property name="enabled">
-                <bool>false</bool>
-               </property>
-               <property name="plainText">
-                <string>behance.net/bogia25200</string>
-               </property>
-              </widget>
-             </item>
             </layout>
            </widget>
           </item>
@@ -627,25 +589,6 @@ font: 12pt &quot;Arial&quot;;</string>
               <height>16777215</height>
              </size>
             </property>
-            <widget class="QLabel" name="label_5">
-             <property name="geometry">
-              <rect>
-               <x>20</x>
-               <y>44</y>
-               <width>30</width>
-               <height>30</height>
-              </rect>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap>img/icons8-external-link-64.png</pixmap>
-             </property>
-             <property name="scaledContents">
-              <bool>true</bool>
-             </property>
-            </widget>
            </widget>
           </item>
          </layout>
@@ -680,88 +623,6 @@ border-radius: 15px;</string>
         <number>12</number>
        </property>
        <item>
-        <widget class="QFrame" name="frame_12">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>107</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>107</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: #09080F;
-border-radius: 15px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <widget class="QLabel" name="label_45">
-          <property name="geometry">
-           <rect>
-            <x>8</x>
-            <y>6</y>
-            <width>100</width>
-            <height>91</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap>img/anhPhuoc.png</pixmap>
-          </property>
-          <property name="scaledContents">
-           <bool>true</bool>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_46">
-          <property name="geometry">
-           <rect>
-            <x>111</x>
-            <y>19</y>
-            <width>91</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 700 12pt &quot;Arial&quot;;
-color: #ffffff;</string>
-          </property>
-          <property name="text">
-           <string>Phuoc Ding</string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_47">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="geometry">
-           <rect>
-            <x>111</x>
-            <y>50</y>
-            <width>91</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 700 10pt &quot;Arial&quot;;
-</string>
-          </property>
-          <property name="text">
-           <string>R&amp;D Manager</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item>
         <widget class="QFrame" name="frame_11">
          <property name="maximumSize">
           <size>
@@ -770,7 +631,7 @@ color: #ffffff;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #424246;
+          <string notr="true">background-color: #09080F;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -792,7 +653,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/bao (2).png</pixmap>
+           <pixmap>../img/bao (2).png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -868,7 +729,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/TuongDii.png</pixmap>
+           <pixmap>../img/TuongDii.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -944,7 +805,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/khoa.png</pixmap>
+           <pixmap>../img/khoa.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1020,7 +881,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/chiHan.png</pixmap>
+           <pixmap>../img/chiHan.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1061,6 +922,88 @@ color: #ffffff;</string>
           </property>
           <property name="text">
            <string>R&amp;D Media</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_12">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>107</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>107</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #424246;
+border-radius: 15px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_45">
+          <property name="geometry">
+           <rect>
+            <x>8</x>
+            <y>6</y>
+            <width>100</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../img/Minh.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_46">
+          <property name="geometry">
+           <rect>
+            <x>111</x>
+            <y>19</y>
+            <width>91</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Arial&quot;;
+color: #ffffff;</string>
+          </property>
+          <property name="text">
+           <string>Nguyen Min</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_47">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>111</x>
+            <y>50</y>
+            <width>91</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 10pt &quot;Arial&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>R&amp;D Coding</string>
           </property>
          </widget>
         </widget>

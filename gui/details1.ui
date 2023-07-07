@@ -2,16 +2,28 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>657</height>
+    <height>600</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -55,7 +67,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-home-30.png</pixmap>
+           <pixmap>../img/icons8-home-30.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -74,7 +86,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-images-folder-48.png</pixmap>
+           <pixmap>../img/icons8-images-folder-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -93,7 +105,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-friends-48.png</pixmap>
+           <pixmap>../img/icons8-friends-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -128,7 +140,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-qr-64.png</pixmap>
+           <pixmap>../img/icons8-qr-64.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -180,7 +192,7 @@ border-radius: 15px;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>img/icons8-left-arrow-50.png</normaloff>img/icons8-left-arrow-50.png</iconset>
+            <normaloff>../img/icons8-left-arrow-50.png</normaloff>../img/icons8-left-arrow-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -239,7 +251,7 @@ border-radius: 15px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/khoa.png</pixmap>
+              <pixmap>../img/anhPhuoc.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -254,7 +266,7 @@ border-radius: 15px;</string>
               <rect>
                <x>0</x>
                <y>10</y>
-               <width>111</width>
+               <width>131</width>
                <height>31</height>
               </rect>
              </property>
@@ -263,7 +275,7 @@ border-radius: 15px;</string>
 color: #ffffff;</string>
              </property>
              <property name="text">
-              <string>Khoa Dao</string>
+              <string>Phuoc Ding</string>
              </property>
             </widget>
             <widget class="QLabel" name="label_62">
@@ -284,7 +296,7 @@ color: #ffffff;
 </string>
              </property>
              <property name="text">
-              <string>R&amp;D Coding</string>
+              <string>R&amp;D Manager</string>
              </property>
             </widget>
             <widget class="QPushButton" name="pushButton">
@@ -334,13 +346,13 @@ color: #24222A;</string>
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>100</height>
+           <height>140</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
            <width>16777215</width>
-           <height>100</height>
+           <height>140</height>
           </size>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -367,7 +379,7 @@ color: #ffffff;</string>
              <bool>false</bool>
             </property>
             <property name="plainText">
-             <string>Hi, I'm Khoa and I'm a game designer and developer. If you want to find someone to play the game with, contact me.</string>
+             <string>Bonjour, Je m'appelle Phuoc. I'm working as a curriculum developer in Edtech company. I have a strong and powerful team and core our products are coding programs for both kids and adults. My background is software engineer but I'm always interested in education so Edtech and instructional design seem belong to me. I'm a enthusiastic person and willing to support everybody.</string>
             </property>
            </widget>
           </item>
@@ -508,7 +520,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/facebook.png</pixmap>
+              <pixmap>../img/facebook.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -530,7 +542,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/instagram.png</pixmap>
+              <pixmap>../img/instagram.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -552,7 +564,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/linkedin.png</pixmap>
+              <pixmap>../img/linkedin.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -572,6 +584,44 @@ background-color: #09080F;</string>
              <property name="topMargin">
               <number>0</number>
              </property>
+             <item>
+              <widget class="QLabel" name="label_68">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 700 15pt &quot;Arial&quot;;
+color: #ffffff;</string>
+               </property>
+               <property name="text">
+                <string>Links</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_69">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #ffffff;
+font: 12pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>My website:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPlainTextEdit" name="plainTextEdit_2">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="plainText">
+                <string>https://github.com/phuocding</string>
+               </property>
+              </widget>
+             </item>
             </layout>
            </widget>
           </item>
@@ -589,6 +639,25 @@ background-color: #09080F;</string>
               <height>16777215</height>
              </size>
             </property>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>44</y>
+               <width>30</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>../img/icons8-external-link-64.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
            </widget>
           </item>
          </layout>
@@ -636,8 +705,11 @@ border-radius: 15px;</string>
            <height>107</height>
           </size>
          </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #09080F;
+          <string notr="true">background-color: #424246;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -655,11 +727,14 @@ border-radius: 15px;</string>
             <height>91</height>
            </rect>
           </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="text">
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/anhPhuoc.png</pixmap>
+           <pixmap>../img/anhPhuoc.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -673,6 +748,9 @@ border-radius: 15px;</string>
             <width>91</width>
             <height>20</height>
            </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
           </property>
           <property name="styleSheet">
            <string notr="true">font: 700 12pt &quot;Arial&quot;;
@@ -712,6 +790,9 @@ color: #ffffff;</string>
            <height>107</height>
           </size>
          </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: #09080F;
 border-radius: 15px;</string>
@@ -722,7 +803,7 @@ border-radius: 15px;</string>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QLabel" name="label_42">
+         <widget class="QLabel" name="btn_viewImg4">
           <property name="geometry">
            <rect>
             <x>8</x>
@@ -731,31 +812,17 @@ border-radius: 15px;</string>
             <height>91</height>
            </rect>
           </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="text">
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/bao (2).png</pixmap>
+           <pixmap>../img/bao (2).png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_43">
-          <property name="geometry">
-           <rect>
-            <x>111</x>
-            <y>19</y>
-            <width>91</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 700 12pt &quot;Arial&quot;;
-color: #ffffff;</string>
-          </property>
-          <property name="text">
-           <string>Gia Bao</string>
           </property>
          </widget>
          <widget class="QLabel" name="label_44">
@@ -778,6 +845,23 @@ color: #ffffff;</string>
            <string>R&amp;D Media</string>
           </property>
          </widget>
+         <widget class="QPushButton" name="btn_view4">
+          <property name="geometry">
+           <rect>
+            <x>105</x>
+            <y>20</y>
+            <width>75</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Arial&quot;;
+color: #ffffff;</string>
+          </property>
+          <property name="text">
+           <string>Gia Bao</string>
+          </property>
+         </widget>
         </widget>
        </item>
        <item>
@@ -787,6 +871,9 @@ color: #ffffff;</string>
            <width>16777215</width>
            <height>107</height>
           </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: #09080F;
@@ -807,11 +894,14 @@ border-radius: 15px;</string>
             <height>91</height>
            </rect>
           </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="text">
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/TuongDii.png</pixmap>
+           <pixmap>../img/TuongDii.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -864,8 +954,11 @@ color: #ffffff;</string>
            <height>107</height>
           </size>
          </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #424246;
+          <string notr="true">background-color: #09080F;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -887,7 +980,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/khoa.png</pixmap>
+           <pixmap>../img/khoa.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -963,7 +1056,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/chiHan.png</pixmap>
+           <pixmap>../img/chiHan.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>

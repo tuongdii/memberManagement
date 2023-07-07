@@ -55,7 +55,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-home-30.png</pixmap>
+           <pixmap>../img/icons8-home-30.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -74,7 +74,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-images-folder-48.png</pixmap>
+           <pixmap>../img/icons8-images-folder-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -93,7 +93,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-friends-48.png</pixmap>
+           <pixmap>../img/icons8-friends-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -128,7 +128,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-qr-64.png</pixmap>
+           <pixmap>../img/icons8-qr-64.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -180,7 +180,7 @@ border-radius: 15px;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>img/icons8-left-arrow-50.png</normaloff>img/icons8-left-arrow-50.png</iconset>
+            <normaloff>../img/icons8-left-arrow-50.png</normaloff>../img/icons8-left-arrow-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -239,7 +239,7 @@ border-radius: 15px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/TuongDii.png</pixmap>
+              <pixmap>../img/khoa.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -263,7 +263,7 @@ border-radius: 15px;</string>
 color: #ffffff;</string>
              </property>
              <property name="text">
-              <string>Tuong Dii</string>
+              <string>Khoa Dao</string>
              </property>
             </widget>
             <widget class="QLabel" name="label_62">
@@ -367,8 +367,7 @@ color: #ffffff;</string>
              <bool>false</bool>
             </property>
             <property name="plainText">
-             <string>Hi! My name is Dii and I have 2 years experience in Java programming.
-I will be glab to help you and answer any questions.</string>
+             <string>Hi, I'm Khoa and I'm a game designer and developer. If you want to find someone to play the game with, contact me.</string>
             </property>
            </widget>
           </item>
@@ -509,7 +508,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/facebook.png</pixmap>
+              <pixmap>../img/facebook.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -531,7 +530,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/instagram.png</pixmap>
+              <pixmap>../img/instagram.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -553,7 +552,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/linkedin.png</pixmap>
+              <pixmap>../img/linkedin.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -573,44 +572,6 @@ background-color: #09080F;</string>
              <property name="topMargin">
               <number>0</number>
              </property>
-             <item>
-              <widget class="QLabel" name="label_68">
-               <property name="enabled">
-                <bool>true</bool>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">font: 700 15pt &quot;Arial&quot;;
-color: #ffffff;</string>
-               </property>
-               <property name="text">
-                <string>Links</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_69">
-               <property name="enabled">
-                <bool>true</bool>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color: #ffffff;
-font: 12pt &quot;Arial&quot;;</string>
-               </property>
-               <property name="text">
-                <string>My website:</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPlainTextEdit" name="plainTextEdit_2">
-               <property name="enabled">
-                <bool>false</bool>
-               </property>
-               <property name="plainText">
-                <string>https://github.com/tuongdii</string>
-               </property>
-              </widget>
-             </item>
             </layout>
            </widget>
           </item>
@@ -628,25 +589,6 @@ font: 12pt &quot;Arial&quot;;</string>
               <height>16777215</height>
              </size>
             </property>
-            <widget class="QLabel" name="label_5">
-             <property name="geometry">
-              <rect>
-               <x>20</x>
-               <y>44</y>
-               <width>30</width>
-               <height>30</height>
-              </rect>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap>img/icons8-external-link-64.png</pixmap>
-             </property>
-             <property name="scaledContents">
-              <bool>true</bool>
-             </property>
-            </widget>
            </widget>
           </item>
          </layout>
@@ -717,7 +659,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/anhPhuoc.png</pixmap>
+           <pixmap>../img/anhPhuoc.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -793,7 +735,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/bao (2).png</pixmap>
+           <pixmap>../img/bao (2).png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -847,7 +789,7 @@ color: #ffffff;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #424246;
+          <string notr="true">background-color: #09080F;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -869,7 +811,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/TuongDii.png</pixmap>
+           <pixmap>../img/TuongDii.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -923,7 +865,7 @@ color: #ffffff;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #09080F;
+          <string notr="true">background-color: #424246;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -945,7 +887,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/khoa.png</pixmap>
+           <pixmap>../img/khoa.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1021,7 +963,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/chiHan.png</pixmap>
+           <pixmap>../img/chiHan.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>

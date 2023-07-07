@@ -1,9 +1,14 @@
 <RCC>
-  <qresource>
+  <qresource prefix="img">
+    <file>img/43022.jpg</file>
     <file>img/anhPhuoc.png</file>
     <file>img/avt1-removebg-preview.png</file>
     <file>img/bao (2).png</file>
+    <file>img/brainstorm.png</file>
     <file>img/chiHan.png</file>
+    <file>img/creativity (1).png</file>
+    <file>img/creativity.png</file>
+    <file>img/drawing-tablet.png</file>
     <file>img/facebook.png</file>
     <file>img/github.png</file>
     <file>img/icons8-external-link-64.png</file>
@@ -12,15 +17,23 @@
     <file>img/icons8-home-30.png</file>
     <file>img/icons8-images-folder-48.png</file>
     <file>img/icons8-left-arrow-50.png</file>
+    <file>img/icons8-more-than-30.png</file>
     <file>img/icons8-qr-64.png</file>
     <file>img/icons8-qr-code-64.png</file>
     <file>img/icons8-search-30.png</file>
+    <file>img/image_processing20191118-5389-18t9mkl.png</file>
+    <file>img/image_processing20200217-23434-1ecfqd4.png</file>
     <file>img/instagram.png</file>
     <file>img/khoa.png</file>
     <file>img/linkedin.png</file>
     <file>img/Minh.png</file>
+    <file>img/qr.png</file>
+    <file>img/Screenshot_2023-06-20_145259-removebg-preview.png</file>
+    <file>img/Screenshot_2023-06-20_145313-removebg-preview.png</file>
+    <file>img/Screenshot_2023-06-20_145325-removebg-preview.png</file>
+    <file>img/Screenshot_2023-06-20_145827-removebg-preview.png</file>
     <file>img/spaces_-MWcLXaW6te9yNIG__kn_avatar-1616661413606.webp</file>
+    <file>img/think-different.png</file>
     <file>img/TuongDii.png</file>
   </qresource>
-  <qresource prefix="newPrefix"/>
 </RCC>

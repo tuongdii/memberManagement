@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1000</width>
-    <height>618</height>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="1" column="0">
-     <widget class="QWidget" name="widget_5" native="true">
+     <widget class="QWidget" name="space_left" native="true">
       <property name="minimumSize">
        <size>
         <width>150</width>
@@ -39,7 +39,7 @@
      </widget>
     </item>
     <item row="1" column="2">
-     <widget class="QWidget" name="widget_3" native="true">
+     <widget class="QWidget" name="space_right" native="true">
       <property name="minimumSize">
        <size>
         <width>150</width>
@@ -58,7 +58,7 @@
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QWidget" name="widget" native="true">
+     <widget class="QWidget" name="form_login" native="true">
       <property name="minimumSize">
        <size>
         <width>600</width>
@@ -83,7 +83,7 @@ border-radius: 15px;</string>
            <number>40</number>
           </property>
           <item>
-           <widget class="QLabel" name="label">
+           <widget class="QLabel" name="title">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -223,23 +223,20 @@ font: 11pt &quot;Segoe UI&quot;;</string>
              <bool>false</bool>
             </property>
             <property name="echoMode">
-             <enum>QLineEdit::Normal</enum>
+             <enum>QLineEdit::Password</enum>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_5">
-            <property name="minimumSize">
+           <widget class="QPushButton" name="btn_resetPassword">
+            <property name="maximumSize">
              <size>
-              <width>0</width>
+              <width>160</width>
               <height>25</height>
              </size>
             </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>25</height>
-             </size>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="styleSheet">
              <string notr="true">color: #FFCCCD;
@@ -263,6 +260,9 @@ font: 700 11pt &quot;Segoe UI&quot;;</string>
               <width>450</width>
               <height>40</height>
              </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="styleSheet">
              <string notr="true">background-color: #FFCCCD;
@@ -290,6 +290,15 @@ color: #132742;
              </size>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_6">
                <property name="minimumSize">
@@ -314,18 +323,21 @@ font: 700 10pt &quot;Segoe UI&quot;;</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_7">
+              <widget class="QPushButton" name="btn_register">
                <property name="minimumSize">
                 <size>
-                 <width>0</width>
+                 <width>60</width>
                  <height>30</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>16777215</width>
+                 <width>60</width>
                  <height>30</height>
                 </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
                </property>
                <property name="styleSheet">
                 <string notr="true">color: #FFCCCD;
@@ -335,6 +347,9 @@ font: 700 10pt &quot;Segoe UI&quot;;</string>
                 <string>Register</string>
                </property>
               </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_10" native="true"/>
              </item>
             </layout>
            </widget>
@@ -367,7 +382,7 @@ font: 700 10pt &quot;Segoe UI&quot;;</string>
            <number>40</number>
           </property>
           <item>
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="lbl_QRcode">
             <property name="minimumSize">
              <size>
               <width>200</width>
@@ -384,7 +399,7 @@ font: 700 10pt &quot;Segoe UI&quot;;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>img/Screenshot 2023-06-20 174859.png</pixmap>
+             <pixmap>../img/qr.png</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
@@ -420,7 +435,7 @@ color: #ffffff;
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QWidget" name="widget_4" native="true">
+     <widget class="QWidget" name="space_top" native="true">
       <property name="minimumSize">
        <size>
         <width>0</width>
@@ -430,11 +445,10 @@ color: #ffffff;
       <property name="styleSheet">
        <string notr="true">background-color: rgba( 255, 255, 255, 0% )</string>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_3"/>
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QWidget" name="widget_2" native="true">
+     <widget class="QWidget" name="space_bottom" native="true">
       <property name="minimumSize">
        <size>
         <width>0</width>
@@ -452,6 +466,8 @@ color: #ffffff;
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../source.qrc"/>
+ </resources>
  <connections/>
 </ui>

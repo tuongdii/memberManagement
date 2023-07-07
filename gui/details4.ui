@@ -2,28 +2,16 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
-  <property name="windowModality">
-   <enum>Qt::NonModal</enum>
-  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>697</height>
+    <height>600</height>
    </rect>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>16777215</width>
-    <height>16777215</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
-  </property>
-  <property name="layoutDirection">
-   <enum>Qt::LeftToRight</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -67,7 +55,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-home-30.png</pixmap>
+           <pixmap>../img/icons8-home-30.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -86,7 +74,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-images-folder-48.png</pixmap>
+           <pixmap>../img/icons8-images-folder-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -105,7 +93,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-friends-48.png</pixmap>
+           <pixmap>../img/icons8-friends-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -140,7 +128,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-qr-64.png</pixmap>
+           <pixmap>../img/icons8-qr-64.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -192,7 +180,7 @@ border-radius: 15px;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>img/icons8-left-arrow-50.png</normaloff>img/icons8-left-arrow-50.png</iconset>
+            <normaloff>../img/icons8-left-arrow-50.png</normaloff>../img/icons8-left-arrow-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -251,7 +239,7 @@ border-radius: 15px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/anhPhuoc.png</pixmap>
+              <pixmap>../img/bao (2).png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -266,7 +254,7 @@ border-radius: 15px;</string>
               <rect>
                <x>0</x>
                <y>10</y>
-               <width>131</width>
+               <width>111</width>
                <height>31</height>
               </rect>
              </property>
@@ -275,7 +263,7 @@ border-radius: 15px;</string>
 color: #ffffff;</string>
              </property>
              <property name="text">
-              <string>Phuoc Ding</string>
+              <string>Gia Bao</string>
              </property>
             </widget>
             <widget class="QLabel" name="label_62">
@@ -296,7 +284,7 @@ color: #ffffff;
 </string>
              </property>
              <property name="text">
-              <string>R&amp;D Manager</string>
+              <string>R&amp;D Media</string>
              </property>
             </widget>
             <widget class="QPushButton" name="pushButton">
@@ -346,13 +334,13 @@ color: #24222A;</string>
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>140</height>
+           <height>100</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
            <width>16777215</width>
-           <height>140</height>
+           <height>100</height>
           </size>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -379,7 +367,7 @@ color: #ffffff;</string>
              <bool>false</bool>
             </property>
             <property name="plainText">
-             <string>Bonjour, Je m'appelle Phuoc. I'm working as a curriculum developer in Edtech company. I have a strong and powerful team and core our products are coding programs for both kids and adults. My background is software engineer but I'm always interested in education so Edtech and instructional design seem belong to me. I'm a enthusiastic person and willing to support everybody.</string>
+             <string>Hi, my name is Gia Bao and I'm currently a UI UX designer, in addition, I also enjoy photography and video editing.</string>
             </property>
            </widget>
           </item>
@@ -520,7 +508,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/facebook.png</pixmap>
+              <pixmap>../img/facebook.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -542,7 +530,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/instagram.png</pixmap>
+              <pixmap>../img/instagram.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -564,7 +552,7 @@ background-color: #09080F;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/linkedin.png</pixmap>
+              <pixmap>../img/linkedin.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -618,7 +606,7 @@ font: 12pt &quot;Arial&quot;;</string>
                 <bool>false</bool>
                </property>
                <property name="plainText">
-                <string>https://github.com/phuocding</string>
+                <string>behance.net/bogia25200</string>
                </property>
               </widget>
              </item>
@@ -652,7 +640,7 @@ font: 12pt &quot;Arial&quot;;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>img/icons8-external-link-64.png</pixmap>
+              <pixmap>../img/icons8-external-link-64.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -706,7 +694,7 @@ border-radius: 15px;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #424246;
+          <string notr="true">background-color: #09080F;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -728,7 +716,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/anhPhuoc.png</pixmap>
+           <pixmap>../img/anhPhuoc.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -782,7 +770,7 @@ color: #ffffff;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #09080F;
+          <string notr="true">background-color: #424246;
 border-radius: 15px;</string>
          </property>
          <property name="frameShape">
@@ -804,7 +792,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/bao (2).png</pixmap>
+           <pixmap>../img/bao (2).png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -880,7 +868,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/TuongDii.png</pixmap>
+           <pixmap>../img/TuongDii.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -956,7 +944,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/khoa.png</pixmap>
+           <pixmap>../img/khoa.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1032,7 +1020,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/chiHan.png</pixmap>
+           <pixmap>../img/chiHan.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>

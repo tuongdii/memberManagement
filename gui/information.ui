@@ -52,7 +52,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-home-30.png</pixmap>
+           <pixmap>../img/icons8-home-30.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -71,7 +71,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-images-folder-48.png</pixmap>
+           <pixmap>../img/icons8-images-folder-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -90,7 +90,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-friends-48.png</pixmap>
+           <pixmap>../img/icons8-friends-48.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -125,7 +125,7 @@ border-radius: 15px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>img/icons8-qr-64.png</pixmap>
+           <pixmap>../img/icons8-qr-64.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -190,7 +190,7 @@ border-radius: 15px;</string>
              </property>
              <item>
               <widget class="QWidget" name="widget_6" native="true">
-               <widget class="QLabel" name="label_2">
+               <widget class="QLabel" name="lblUser">
                 <property name="geometry">
                  <rect>
                   <x>-3</x>
@@ -203,7 +203,7 @@ border-radius: 15px;</string>
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>img/TuongDii.png</pixmap>
+                 <pixmap>../img/TuongDii.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -228,7 +228,7 @@ border-radius: 15px;</string>
                  <string>Good to see you</string>
                 </property>
                </widget>
-               <widget class="QLabel" name="label_4">
+               <widget class="QLabel" name="lbUsername">
                 <property name="geometry">
                  <rect>
                   <x>80</x>
@@ -274,7 +274,7 @@ color: #ffffff;</string>
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>img/icons8-qr-code-64.png</pixmap>
+                 <pixmap>../img/icons8-qr-code-64.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -321,7 +321,7 @@ color: #ffffff;</string>
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap>img/icons8-search-30.png</pixmap>
+                <pixmap>../img/icons8-search-30.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -574,7 +574,7 @@ color: #ffffff;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/TuongDii.png</normaloff>img/TuongDii.png</iconset>
+               <normaloff>../img/TuongDii.png</normaloff>../img/TuongDii.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -634,7 +634,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/Minh.png</normaloff>img/Minh.png</iconset>
+               <normaloff>../img/Minh.png</normaloff>../img/Minh.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -726,7 +726,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/anhPhuoc.png</normaloff>img/anhPhuoc.png</iconset>
+               <normaloff>../img/anhPhuoc.png</normaloff>../img/anhPhuoc.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -812,7 +812,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/bao (2).png</normaloff>img/bao (2).png</iconset>
+               <normaloff>../img/bao (2).png</normaloff>../img/bao (2).png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -892,7 +892,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/khoa.png</normaloff>img/khoa.png</iconset>
+               <normaloff>../img/khoa.png</normaloff>../img/khoa.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -972,7 +972,7 @@ border-radius: 15px;</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>img/chiHan.png</normaloff>img/chiHan.png</iconset>
+               <normaloff>../img/chiHan.png</normaloff>../img/chiHan.png</iconset>
              </property>
              <property name="iconSize">
               <size>
